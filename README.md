@@ -1,2 +1,1 @@
-# wine-prefix
-Wine prefixes for Lutris Wine
+## Wine prefixes for Lutris Wine
