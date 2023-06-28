@@ -6,8 +6,6 @@
 git clone https://github.com/VHSgunzo/wine-prefix.git && cd wine-prefix
 ```
 
-* **Get prefix backup files from the** [releases](https://github.com/VHSgunzo/wine-prefix/releases)
-
 * **Create packages**
 ```
 makepkg -fsCc --noconfirm --nodeps
