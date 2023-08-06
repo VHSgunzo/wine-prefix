@@ -9,5 +9,4 @@ git clone https://github.com/VHSgunzo/wine-prefix.git && cd wine-prefix
 * **Create packages**
 ```
 makepkg -fsCc --noconfirm --nodeps
-makepkg -fsCc --noconfirm --nodeps -p PKGBUILD_dotnet
 ```
