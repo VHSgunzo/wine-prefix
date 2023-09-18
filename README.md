@@ -1,4 +1,4 @@
-## Wine prefixes for [Lutris Wine](https://github.com/VHSgunzo/lutris-wine)
+## Wine prefixes for [Lux Wine](https://github.com/VHSgunzo/lux-wine)
 
 ## To create archlinux packages:
 * **Download the latest revision**

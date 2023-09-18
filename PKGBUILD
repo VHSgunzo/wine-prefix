@@ -2,7 +2,7 @@
 
 pkgbase='wine-prefix'
 pkgname=('wine-prefix' 'wine-prefix-dotnet')
-pkgver='0.0.3'
+pkgver='0.0.4'
 pkgrel='1'
 url="https://github.com/VHSgunzo/wine-prefix"
 arch=('x86_64')
@@ -16,11 +16,11 @@ source=(
 sha256sums=('SKIP' 'SKIP')
 
 package_wine-prefix() {
-    pkgdesc='Default wine prefix for Lutris Wine'
+    pkgdesc='Default wine prefix for Lux Wine'
     install -Dm644 "$srclwpfx" "${pkgdir}/opt/lwrap/prefix_backups/$srclwpfx"
 }
 
 package_wine-prefix-dotnet() {
-    pkgdesc='Default wine prefix with dotnet for Lutris Wine'
+    pkgdesc='Default wine prefix with dotnet for Lux Wine'
     install -Dm644 "$srcdotnetlwpfx" "${pkgdir}/opt/lwrap/prefix_backups/$srcdotnetlwpfx"
 }
