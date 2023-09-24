@@ -2,7 +2,7 @@
 
 pkgbase='wine-prefix'
 pkgname=('wine-prefix' 'wine-prefix-dotnet')
-pkgver='0.0.5'
+pkgver='0.0.6'
 pkgrel='1'
 url="https://github.com/VHSgunzo/wine-prefix"
 arch=('x86_64')
